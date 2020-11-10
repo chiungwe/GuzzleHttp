@@ -9,5 +9,5 @@ composer require  guzzlehttp/guzzle
 ## example
 ```php
 $client = new \GuzzleHttp\Client();
-$res->$client->request('POST', 'url');
+$res = $client->request('POST', 'url');
 ```
