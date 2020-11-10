@@ -1,13 +1,3 @@
 # GuzzleHttp
 `Note`
-PHP HTTP Client
-
-## install
-```
-composer require  guzzlehttp/guzzle
-```
-## example
-```php
-$client = new \GuzzleHttp\Client();
-$res = $client->request('POST', 'url');
-```
+PHP HTTP Client, see https://docs.guzzlephp.org/en/stable/
